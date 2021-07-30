@@ -1,0 +1,143 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    background-color: #ffffff ;
+    color: #585858;
+    font-family: lato,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+} 
+.clearfix{zoom: 1;}
+.clearfix:after{
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* REUSABLE */
+.row
+{
+    max-width: 1140px;
+    margin: auto;
+}
+section
+{
+    padding: 80px 0;
+}
+.box
+{
+    padding: 1%;
+}
+/* HEAADiNDS */
+
+
+
+h1,h2,h3{
+    
+    text-transform: uppercase;
+    font-weight: 300;
+ 
+   
+ 
+}
+h1{
+    margin: 0; 
+      color: white;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    font-size: 240%;
+    letter-spacing: 1px;
+
+}
+h2{
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px ;
+  letter-spacing: 1px;
+}
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+h2:after
+{
+    display: block;
+    background-color: #e67e22;
+    height: 2px;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+/* BUTTONS */
+.btn,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px; 
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+   
+   
+    border: 1px solid #e67e22;
+    transition: background-color 0.2s,border  0.2s,color 0.2s;
+    border-radius: 200px; 
+}
+.btn-1,input[type=submit]
+{
+    background-color: #e67e22;
+     border: 1px solid #e67e22;
+     
+}
+.btn-2
+{
+    border-radius: 200px; 
+     border: 1px solid #e67e22;;
+    color: #e67e22;
+    margin-left: 1%;
+}
+.btn-1:hover,
+.btn-1:active,input[type=submit]:hover,
+input[type=submit]:active{
+    background-color: #d35400;
+}
+
+
+/* section form */
+.contact-form{
+    width: 20%;
+    margin: 0 auto;
+}
+/* input[type=text],
+input[type=email],select,textarea{
+    width: 20%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #cccccc;
+}   
+input[type=checkbox]
+{
+    margin: 10px 5px 10px 0px;
+} */
+*:focus{
+outline: none;
+}
+
+.jum{
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(255, 0, 0);
+}

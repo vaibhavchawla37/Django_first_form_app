@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/style_2.css' %}">
+    <title>Black panther</title>
+</head>
+<body class="body">
+    <h1>
+       Marvel Rocks
+    </h1>
+    <a href="{% url 'first_app_urls:form' %}">form</a>
+    <a href="{% url 'first_app_urls:form_1' %}">form_1</a>
+    <a href="{% url 'first_app_urls:form_2' %}">form_2</a>
+    <a href="{% url 'admin:index' %}">admin</a>
+    <a href="{% url 'first_app_urls:index' %}">relative_index</a>
+    <br>
+    <img src="{% static 'images/img_1.jpg' %}" alt="My image">
+</body>
+</html>

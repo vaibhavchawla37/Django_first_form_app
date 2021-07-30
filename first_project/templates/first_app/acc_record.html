@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style_2.css' %}">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Random Dates</h1>
+    <h2>Iron man</h2>
+    <h3>/first_app/ to access forms </h3>
+    <div class='djang_2'>
+        {% if access_record %}
+            <table>
+                <thread>
+                    <th>ID</th>
+                    <th>Site url</th>
+                    <th>Date_accesed</th>
+                </thread>
+
+            {% for acc in access_record %}
+                <tr>
+                    <td>{{ acc.id }}</td>
+                    <td>{{ acc.name }}</td>
+                    <td>{{ acc.date }}</td>
+                </tr>
+            {% endfor %}
+            </table>
+        {% else %}
+            <p>No Access Record found</p>
+        {% endif %}
+    
+    </div>
+</body>
+</html>

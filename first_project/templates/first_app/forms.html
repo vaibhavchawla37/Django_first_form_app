@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<head>
+    <link rel="stylesheet" href="{% static 'vendors/css/normalize.css' %} ">
+    <meta name="viewport" content=" width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'vendors/css/ionicons.min.css' %} ">
+
+    <link rel="stylesheet" href="{% static 'css/style_1.css' %} ">
+    <link rel="stylesheet" href="{% static 'resources/css/queries.css' %} ">
+    <link rel="stylesheet" href="{% static 'vendors/css/grid.css' %} ">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <title>Document</title>
+</head>
+<body>
+<h1>Fill</h1>
+<section class = 'contact-for,'>
+        <div class="row">
+        <h2>we're happy to hear from you</h2>
+    </div>
+
+<div class ='row'>
+    <form action="" method="post">
+        {{ form.as_p }}
+        {% csrf_token %}
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
+</div>
+</section>
+</body>
+</html>

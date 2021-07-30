@@ -1,0 +1,50 @@
+@media only screen and (max-width:1200px){
+    .hero-text-box
+    {
+        padding: 0 2%;
+        width: 100%;
+    }
+    .row{padding: 0 2%;}
+}
+
+
+@media only screen and (max-width:1023px){
+    html{font-size: 17px;}
+    section{padding: 30px 0;}
+
+    .long-copy
+    {   width: 80%;
+        margin-left: 10%;}
+    .steps-box{ margin-top: 10px;}
+    .steps-box:last-child{  margin-top: 10px; }
+    .btn-app img {margin-right: 5px;
+                  height: 40px; }
+    .works-step{margin-bottom: 40px;}
+    .app-screen {
+        width: 50%;
+    }
+    .city-feature{font-size: 77.2%;}
+    .icon-small {font-size: 115%;
+                width: 25px;}
+    h3{font-size: 105%;}
+    .works-step p{font-size:17px; }
+    .works-step div {
+    
+        font-size: 130%;
+        height: 40px;
+        width: 40px;
+   
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+    
+}
+
+
+
+@media only screen and (max-width:480px){
+
+}
